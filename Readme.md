@@ -13,12 +13,10 @@ Se você deseja fazer uma integração simples com o Adlayer recomendamos nossa 
 Os seguintes parametros podem ser usados para tracker clique e impressões.
 
 | Parameter   | Description                        |
-|--------------------------------------------------|
+|-------------|------------------------------------|
 | campaign_id | Id único da campanha               |
 | space_id    | Id do espaço onde o evento ocorreu |
 | site_id     | Id do site que o evento ocorreu    |
 | page_url    | Url em que o evento ocorreu        |
 | date        | Data UTC formatad como ISO 8601    |
 | browser     | Nome do navegador                  |
-
-
