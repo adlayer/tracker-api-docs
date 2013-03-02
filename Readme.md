@@ -8,11 +8,15 @@ Se você deseja fazer uma integração simples com o Adlayer recomendamos nossa 
 
 Aponte suas requisições para a url: http://tracker.adlayerapp.com
 
+## Pixel Tracking
 Atualmente o único método de requisição aceito é o "Pixel Tracking", esta técnica amplamente utilizada por web analytics e ad servers permite que a contabilização de eventos seja efetuada através da transferência de uma imagem de "1x1 pixel".
 
 Portanto qualquer requisição efetuada com o método GET nesta API retornará uma imagem .gif como resposta.
 
+Quando um evento não pode ser salvo o servidor enviará o Header "warning" informando que não pode efetuar a operação.
+
 Veja na próxima sessão deste documento (API Endpoints), para ver exemplos de requisições e quais parâmetros são aceitos.
+
 
 ## API Endpoints
 
