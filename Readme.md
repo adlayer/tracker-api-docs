@@ -50,13 +50,13 @@ Os seguintes parâmetros podem ser usados para tracker clique e impressões.
 ### Trackando a impressão de uma peça
 
 ```http
-GET /clicks/:ad_id?campaign_id=5091c7a4496c4f318d490117ee58a4a5& space_id=96c4f7ee58a4a55091c7a44318d49011 HTTP/1.1
+GET /clicks/:ad_id?campaign_id=5091c7a4496c4f318d490117ee58a4a5&space_id=96c4f7ee58a4a55091c7a44318d49011 HTTP/1.1
 Host: tracker.adlayerapp.com
 ```
 
 ### Trackando o click de uma peça
 
 ```http
-GET /impressions/:ad_id?campaign_id=5091c7a4496c4f318d490117ee58a4a5& space_id=96c4f7ee58a4a55091c7a44318d49011 HTTP/1.1
+GET /impressions/:ad_id?campaign_id=5091c7a4496c4f318d490117ee58a4a5&space_id=96c4f7ee58a4a55091c7a44318d49011 HTTP/1.1
 Host: tracker.adlayerapp.com
 ```
